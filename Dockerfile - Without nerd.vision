@@ -1,0 +1,6 @@
+FROM openjdk:12
+
+COPY nvdocker.jar /opt
+WORKDIR /opt
+
+CMD java -jar /opt/nvdocker.jar
