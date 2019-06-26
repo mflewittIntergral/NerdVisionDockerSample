@@ -17,6 +17,10 @@ class NVDocker {
      try {
        Thread.sleep(5000);
        int i = rand.nextInt(50);
+       if (i > 30) {
+         System.out.println("Large number");
+       }
+
        System.out.println("Random number :" + i);
      }
      catch(Exception e) {}
